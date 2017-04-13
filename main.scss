@@ -1,0 +1,99 @@
+/*
+La Gitane (^._.^)
+Copyright © 2017 Tina Anastopoulos
+Licensed under the MIT license.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lustria');
+
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+	body {
+	background: #111;
+}
+
+.container {
+	width: 500px;
+	height: 658px;
+	border: 5px double #aaa;
+	position: relative;
+	margin: auto;
+}
+
+img#curtain {
+	display: block;
+	width: 494px;
+	position: absolute;
+	top: 145px;
+	left: 3px;
+}
+
+svg {
+	position: absolute;
+	width: 500px;
+	top: -180px;
+}
+
+#btn {
+	fill: #DFE626;
+	stroke: #895916;
+	cursor: pointer;
+	&:hover {
+		fill: #fff;
+		stroke: #ffdc00;
+	}
+	&:active {
+		fill: #921717;
+		stroke: #ffdc00;
+	}
+}
+
+#gitane,#armdown,#card,#smile,#cardPic, #label, #luckyNumbers {
+	opacity: 0;
+}
+
+#cardPic {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 80px;
+	border-radius: 2px;
+	top: 134px;
+	left: 40px;
+}
+
+.intro {
+	width: 450px;
+	height: 85px;
+	position: absolute;
+	top: 132px;
+	left: 25px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Lustria', serif;
+	font-size: 18px;
+}
+
+.intro p:nth-child(1) {
+	font-size: 35px;
+}
+
+.intro p span {
+	font-style: italic;
+}
+
+.explanation {
+	width: 360px;
+	height: 70px;
+	padding: 5px;
+	position: absolute;
+	top: 132px;
+	left: 100px;
+	color: #fff;
+	line-height: 25px;
+	font-family: 'Lustria', serif;
+	font-size: 14px;
+}
