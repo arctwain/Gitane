@@ -1,6 +1,6 @@
 # GITANE
 
-### Animated gypsy fortune-teller game
+### Animated fortune-teller game
 
 [Demo](https://codepen.io/TWAIN/full/MpoYBr/) on Codepen
 
